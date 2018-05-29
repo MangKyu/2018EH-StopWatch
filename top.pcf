@@ -1,0 +1,33 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Tue May 29 23:36:59 2018
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "clk" LOCATE = SITE "AB12" LEVEL 1;
+COMP "segment<0>" LOCATE = SITE "B9" LEVEL 1;
+COMP "segment<1>" LOCATE = SITE "E9" LEVEL 1;
+COMP "segment<2>" LOCATE = SITE "F9" LEVEL 1;
+COMP "segment<3>" LOCATE = SITE "A8" LEVEL 1;
+COMP "segment<4>" LOCATE = SITE "B8" LEVEL 1;
+COMP "segment<5>" LOCATE = SITE "D8" LEVEL 1;
+COMP "segment<6>" LOCATE = SITE "E8" LEVEL 1;
+COMP "segment<7>" LOCATE = SITE "A7" LEVEL 1;
+COMP "reset" LOCATE = SITE "H5" LEVEL 1;
+COMP "start" LOCATE = SITE "G5" LEVEL 1;
+COMP "key_in<0>" LOCATE = SITE "V19" LEVEL 1;
+COMP "key_in<1>" LOCATE = SITE "W21" LEVEL 1;
+COMP "key_in<2>" LOCATE = SITE "U19" LEVEL 1;
+COMP "key_in<3>" LOCATE = SITE "V22" LEVEL 1;
+COMP "dig<0>" LOCATE = SITE "B7" LEVEL 1;
+COMP "dig<1>" LOCATE = SITE "D7" LEVEL 1;
+COMP "dig<2>" LOCATE = SITE "E7" LEVEL 1;
+COMP "dig<3>" LOCATE = SITE "B6" LEVEL 1;
+COMP "dig<4>" LOCATE = SITE "C6" LEVEL 1;
+COMP "dig<5>" LOCATE = SITE "D6" LEVEL 1;
+COMP "key_scan<0>" LOCATE = SITE "Y22" LEVEL 1;
+COMP "key_scan<1>" LOCATE = SITE "W19" LEVEL 1;
+COMP "key_scan<2>" LOCATE = SITE "W20" LEVEL 1;
+COMP "key_scan<3>" LOCATE = SITE "V20" LEVEL 1;
+NET "clk_BUFGP/IBUFG" BEL "clk_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
+
